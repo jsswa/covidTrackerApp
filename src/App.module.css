@@ -4,13 +4,30 @@ body {
 
 .container {
   display: flex;
-  align-items: center;
   flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  width: 70vw;
+  margin: 20px;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.poster {
+  margin-top: 20px;
+  height: 10vh;
 }
 
 .image {
-  width: 370px;
-  margin-top: 50px;
+  width: 4em;
+  height: 4em;
 }
 
 @media only screen and (max-width: 770px) {
